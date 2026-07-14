@@ -10,7 +10,7 @@ variable "common_tag" {
 variable "ec2_tags" {
    default = {
     Name = "function_demo"
-    Environment = "Prod"
+    # Environment = "Prod"
    }
 }
 
